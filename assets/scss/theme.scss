@@ -1,26 +1,26 @@
 /*************************** Theme Colours****************************/
 // Define theme colour scheme
-$theme-color-primary: #ed6524;
+$theme-color-primary: #4a86e8; // Changed from #ed6524 to a modern blue
 
-$theme-text-color-primary: #1c1e2e;
+$theme-text-color-primary: #2d3748; // Updated for better readability
 $theme-text-color-secondary: lighten($theme-text-color-primary, 25%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 
-$theme-bg-light: #f6f8fc;
+$theme-bg-light: #f8fafc; // Lighter background
 $theme-bg-primary: $theme-color-primary;
 $theme-bg-dark: $theme-text-color-primary;
 
-$theme-border-color:  #efefef;
-$theme-divider-color: #efefef;
+$theme-border-color: #edf2f7; // Updated border color
+$theme-divider-color: #edf2f7;
 
 $theme-divider: lighten($theme-text-color-primary, 75%);
 
-$smoky-white: #f5f5f5;
+$smoky-white: #f7fafc;
 
-$single-col-max: 760px;
+$single-col-max: 800px; // Increased from 760px
 
-$theme-color-tick: #7FCDB8;
-$theme-color-badge: #5cb377;
+$theme-color-tick: #38b2ac; // Updated accent color
+$theme-color-badge: #38a169; // Updated badge color
 
 
 
